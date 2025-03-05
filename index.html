@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: black;">Soham Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: black;
+        }
+        .navbar-brand {
+            color:black;
+            font-weight: bold;
+        }
+        footer {
+            background: #f8f9fa;
+            padding: 20px 0;
+        }
+        .footer-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer-section div {
+            flex: 1;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+        }
+        .whatsapp-logo {
+            width: 40px; 
+            vertical-align: middle; 
+            margin-left: 5px; 
+        }
+         .image-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .image-container figcaption {
+            margin-top: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        @media (max-width: 768px) {
+            .image-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .image-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Soham Digital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container my-5">
+        <h2>Welcome to Soham Digital</h2>
+        <p>Welcome to Soham Digital – the premier digital printing shop in Airoli, Navi Mumbai, We specialize in a range of high-quality digital and offset printing solutions designed to meet the diverse needs of our clients.
+        <br>We expertise in all type of Printing and Stationery Printing. We are verified under GST number:27DOCPA5063L1ZX. 
+        <br> Whether it's Personal gift printing or corporate event, we got you all covered!</p>
+    </section>
+
+ <!-- Products Section -->
+ <section id="products" class="container my-5">
+    <h2>Our Products</h2>
+    <p>Check out our latest products available for purchase.</p>
+
+    <!-- Responsive Image Grid with Captions -->
+    <div class="image-container">
+        <figure>
+            <img src="https://www.brandly.com/blog/assets/cheap-business-card-printing-sydney-urgent-business-cards-printing-at-cheap-price-in-dubai.jpg" alt="Image 1">
+            <figcaption>Business Card</figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.shoppingrj.com/cdn/shop/files/white-mug-printing-mugs-398.webp?v=1733464237" alt="Image 2">
+            <figcaption>Customized Mug</figcaption>
+        </figure>
+        <figure>
+            <img src="https://s1-ecp.signs.com/5559/583x357/Vinyl_Banner.jpg" alt="Image 3">
+            <figcaption>Banners</figcaption>
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJrCniRAVdU52aKKxcyGKjL2kuJk_NsSI8w&s" alt="Image 4  ">
+            <figcaption>LED Channel Letters</figcaption>
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYWhTPH5OsrnI61bWI9JkD6p3Xq12DyAy4iA&s" alt="Image 5">
+            <figcaption>QR Stand</figcaption>
+        </figure>
+        <figure>
+            <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/pen/r/r/f/pc-momento-ball-point-pen-blue-savri-original-imagvhstfqdew7su.jpeg?q=90&crop=false" alt="Image 6">
+            <figcaption>Personalized pen</figcaption>
+        </figure>
+        <figure>
+            <img src="https://thebanyantee.com/cdn/shop/files/Baby-Pink-T-shirt_599c6286-77e0-45aa-9ea3-ab92f4e2bea1.jpg?v=1721381182&width=1920" alt="Image 7">
+            <figcaption>T-shirt Printing</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img3.exportersindia.com/product_images/bc-full/2020/12/7887427/id-card-printing-services-1607939557-5656466.jpeg" alt="Image 8">
+            <figcaption>ID Printing</figcaption>
+        </figure>
+        <figure>
+            <img src="https://blog-frontend.envato.com/cdn-cgi/image/width=1280,quality=75,format=auto/uploads/sites/2/2024/01/psd-brochure.jpg" alt="Image 9">
+            <figcaption>Brochure</figcaption>
+        </figure>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="container">
+        <div class="footer-section">
+            <!-- Contact Details -->
+             <div>
+                <h5>Address</h5>
+                <p>Address: Shop C, Jai Ganesh, Society, opposite railway station, Sector 3, Airoli, Navi Mumbai, Maharashtra 400 708</p>
+             </div>
+            <div>
+                <h5>Contact Details</h5>
+                <p><strong>Email:</strong> sohamdigital20@gmail.com</p>
+                <p><strong>Phone:</strong> +91 81699 75287</p>
+                <p><strong>Phone:</strong> +91 70214 95439</p>
+                <p><strong>Phone:</strong> +91 83559 54584</p>
+<p><strong>WhatsApp:</strong> <a href=""https://wa.me/message/I7IB7VQKZFYKJ1" target="_blank">Chat with us</a>
+<img src="https://wa.me/message/I7IB7VQKZFYKJ1" alt="WhatsApp QR Code" class="whatsapp-logo" />
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsKP1pQ-1bjzTiiX69KgJ8iq3UndRBTED9Q&s" alt="WhatsApp Logo" class="whatsapp-logo" />
+                </p>
+            </div>
+            <!-- Google Map -->
+            <div>
+                <h5>Find Us</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.824027001727!2d72.99600657425694!3d19.15917868206264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf5dbe157af9%3A0x31cdcf9309ba400c!2sSoham%20Digital%20-%20Best%20Printing%20Shop%20In%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1740506579865!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
